@@ -2,7 +2,7 @@
 
 	export default{
 		props: {
-			movie: Object
+			tv: Object
 		}
 	}
 
@@ -10,9 +10,9 @@
 
 <template>
 	<div class="card m-1 border-0">
-		<h4>{{ movie.original_title }}</h4>
-		<div><img :src="`https://www.countryflagicons.com/FLAT/32/${(movie.original_language).toUpperCase()}.png`" alt="" /></div>
-		<div>{{ movie.vote_average }}</div>
+		<h4>{{ tv.original_name }}</h4>
+		<div><img :src="`https://www.countryflagicons.com/FLAT/32/${(tv.original_language).toUpperCase()}.png`" alt="" /></div>
+		<div>{{ tv.vote_average }}</div>
 	</div>
 </template>
 

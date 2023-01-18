@@ -3,8 +3,39 @@
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
+@font-face {
+	font-family: Netflix Sans;
+	src: url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Netflix Sans;
+	src: url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Netflix Sans;
+	src: url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Netflix Sans;
+	src: url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2');
+	font-weight: 900;
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	color: $light-color;
+	background-color: $dark-color;
+	font-family: 'Netflix Sans';
 }
