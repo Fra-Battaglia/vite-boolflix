@@ -12,7 +12,7 @@
 
 <template>
 	<div class="search d-flex w-25">
-		<input type="text" class="form-control" placeholder="movies" v-model="store.search_text"  @keyup.enter="$emit('search')">
+		<input type="text" class="form-control  me-3" placeholder="movies" v-model="store.search_text"  @keyup.enter="$emit('search')">
 		<button class="btn btn-outline-light" @click="$emit('search')" type="submit">cerca</button>
 	</div>
 </template>

@@ -16,8 +16,6 @@
 
 		
 	}
-
-	console.log(store.movie_list);
 </script>
 
 <template>
