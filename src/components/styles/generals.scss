@@ -41,3 +41,37 @@ body {
 	background-color: $dark-color;
 	font-family: 'Netflix Sans';
 }
+
+.text-huge {
+	font-size: 130px;
+}
+
+.color-red {
+	color: $primary-color;
+}
+
+.card {
+	@include card;
+
+	.card-cover {
+		.cover-img {
+			@include cover;
+		}
+		.cover-404 {
+			.n-symbol {
+				width: 40px
+			}
+		}
+	}
+
+	.card-content {
+		@include card-content;
+
+		.description {
+			@include description;
+		}
+	}
+}
+.card:hover .card-content {
+	display: block;
+}
