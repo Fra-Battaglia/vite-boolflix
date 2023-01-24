@@ -65,6 +65,9 @@
 
 						: tv.original_language == 'cs'
 						? `https://www.countryflagicons.com/FLAT/32/CZ.png`
+
+						: tv.original_language == 'hi'
+						? `https://www.countryflagicons.com/FLAT/32/IN.png`
 	
 						: `https://www.countryflagicons.com/FLAT/32/${(tv.original_language).toUpperCase()}.png`
 					" 

@@ -59,6 +59,9 @@
 					: movie.original_language == 'cs'
 					? `https://www.countryflagicons.com/FLAT/32/KR.png`
 
+					: movie.original_language == 'hi'
+					? `https://www.countryflagicons.com/FLAT/32/IN.png`
+
 					: `https://www.countryflagicons.com/FLAT/32/${(movie.original_language).toUpperCase()}.png`
 				" 
 				alt=""/>
