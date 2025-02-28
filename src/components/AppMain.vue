@@ -54,7 +54,7 @@
 
 			<div class="row mb-5">
 				<div class="col">
-					<h2>Tv Seires</h2>
+					<h2>Tv Series</h2>
 					<div class="series-list d-flex overflow-x-auto">
 						<AppCardTv v-for="(item, index) in store.series_list" :key="index" :tv="item" />
 					</div>
