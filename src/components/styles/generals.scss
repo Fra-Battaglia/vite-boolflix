@@ -53,6 +53,8 @@ body {
 .card {
 	@include card;
 
+	color: $light-color;
+
 	.card-cover {
 		.cover-img {
 			@include cover;
